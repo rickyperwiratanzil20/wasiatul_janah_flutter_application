@@ -22,13 +22,13 @@ class InputDosenState extends State<InputDosen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Input Dosen'),
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.blue,
       ),
       body: Container(
         constraints: BoxConstraints.expand(),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/BerandaBackground.jpeg"),
+            image: AssetImage("assets/BerandaBackground.jpg"),
             fit: BoxFit.cover,
           ),
         ),
